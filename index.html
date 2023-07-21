@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>7th Legend</h1>
+        <p>Living and Learning!!!</p>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Novidades</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Contacte-nos</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Principais Abordagens para o desenvolvimento de dispositivos android</h1>
+            
+            <p>No universo de desenvolvimento mobile existem dois grandes grupos de abordagens, a abordagem nativa e a não nativa (ou multiplataforma). É necessário que seja feita uma apresentação dessas abordagens, para que depois ocorra uma avaliação das características de cada uma.</p>
+            
+            <h2>Aplicações Nativas</h2>
+            <p>Aplicações nativas são aquelas que são desenvolvidas especificamente para uma plataforma, como Android ou iOS , sendo assim, é necessário um ambiente de desenvolvimento específico para cada plataforma em que se deseja ter o aplicativo, cada uma possui suas linguagens de programação, plataformas e outras especificidades.</p>
+            <p>A grande vantagem de optar por uma aplicação nativa é por ela ser mais rápida e confiável quando se trata de estratégias para trabalhar a experiência do usuário. Os aplicativos nativos também podem interagir com todos os recursos do sistema operacional dos dispositivos, como microfone, câmera, agenda de contatos etc.</p>
+            <p>No entanto, é necessário um orçamento maior se se quiser criar um aplicativo que rode em várias plataformas (iOS, Android e Windows Phone). O orçamento será impactado também pelas necessidades de atualizações, que deverão ocorrer de forma independente em cada sistema operacional.</p>
+            <h3>Vantagens da aplicação Nativa</h3>
+            <ul>
+                <li>Pode ser divulgada em lojas de aplicativos online</li>
+                <li>Possui acesso total ao dispositivo</li>
+                <li>Gera boa experiência de uso</li>
+                <li>Funciona no modo offline</li>
+            </ul>
+            
+
+            <h3>Desvantagens da aplicação Nativa</h3>
+            <ul>
+                <li>Leva bom tempo entre o planejamento e o lancamento</li>
+                <li>Exige o desenvolvimento de varias versões para ser comercializado</li>
+                <li>Consome mais memória do dispositivo</li>
+                <li>Pode ser muito caro o desenvolvimento</li>
+            </ul>
+
+            <h3>Exemplo de uma aplicação Nativa</h3>
+            <div class="imagem">
+        
+                <picture>
+                    <source media="(max-width:800px)" srcset="img/wpp-peq1.png">
+                    <img src="img/wpp.jpg" alt="Imagem de whatsApp">
+                    <figure>
+                        <figcaption>Fig 1: whatsApp</figcaption>
+                    </figure>
+                </picture>
+            </div>
+           <br>
+
+            <h2>Aplicações não Nativas</h2>
+            <p>As aplicações não nativas são aplicativos desenvolvidos de forma que apenas um projeto é necessário para que o aplicativo funcione em várias plataformas, utilizando-se, assim, somente um ambiente de desenvolvimento e linguagem de programação.</p>
+            <h3>Vantagens da aplicação não Nativa</h3>
+            <ul>
+                <li>É necessário escrever o código uma única vez durante o desenvolvimento, o que resulta em uma significativa redução nos custos e no tempo de desenvolvimento</li>
+                <li>As ferramentas e linguagens estão cercadas por comunidades mais atuantes e geralmente orientadas ao código-aberto, que continuamente adicionam e atualizam as suas funcionalidades, ao invés de serem dependentes de um pequeno grupo ou uma única empresa. Dessa forma, existe um maior suporte.</li>
+                <li>Por fim, as atualizações e correções de bugs podem ser lançadas para todas as plataformas de uma vez</li>
+            </ul>
+            <h3>Desvantagesn da aplicação não Nativa</h3>
+            <ul>
+                <li>Desempenho inferior por parte das aplicações não nativas, visto que elas não são projetadas para funcionar perfeitamente na sua plataforma alvo.</li>
+                <li>Menor integração com o hardware e o sistema operacional do dispositivo, o que leva a um acesso dificultado aos sensores como GPS e câmeras.</li>
+                <li>Além disso, aplicações muito complexas podem ter dificuldades em funcionar perfeitamente em todas as plataformas, pois quanto maior a complexidade do aplicativo, mais erros estão propensos a surgir.</li>
+            </ul>
+
+            <h2>Aplicação Híbrida</h2>
+            <p>A principal característica das aplicações híbridas é que elas combinam as funcionalidades das aplicações nativas com tecnologias usadas nas aplicações web , como HTML, CSS e Javascript. É uma das abordagens de desenvolvimento multiplataforma mais simples. Esse tipo de aplicação funciona ao injetar código HTML num container web nativo, possibilitando assim que eles sejam instalados no dispositivo, mesmo com os dados e lógica do programa vindo de um servidor remoto. O desenvolvimento se dá com o código HTML e Javascript, sem conhecimento de detalhes da plataforma alvo. O acesso ao hardware do dispositivo é feito por meio de APIs, que não são diretamente invocadas pelo programador, mas são abstraídas na forma de plugins, que executam uma funcionalidade de forma universal, e que internamente invocam as APIs específicas para cada plataforma</p>
+            <h3>Vantagens da Aplicação Híbrida</h3>
+            <ul>
+                <li>Pode ser disponibilizado nas lojas de aplicativos online</li>
+                <li>São mais fáceis e rápidas de serem desenvolvidas</li>
+                <li>Exige menos manutenção</li>
+            </ul>
+            <h3>Desvantagens da Aplicação Híbrida</h3>
+            <ul>
+                <li>Costumam ter sérios problemas de performance</li>
+                <li>A segurança tende a ser mais vulnerável.</li>
+            </ul>
+            <h3>Exemplo de uma aplicação Híbrida</h3>
+            <div class="imagem">
+        
+                <picture>
+                    <source media="(max-width:800px)" srcset="img/netflix-peq1.png">
+                    <img src="img/netflix1.png" alt="Imagem de Netflix">
+                    <figure>
+                        <figcaption>Fig 2: Netflix</figcaption>
+                    </figure>
+                </picture>
+            </div>
+            <br>
+            <h2>Progressive Web Apps (PWA)</h2>
+            <p>Os PWAs são uma evolução natural das aplicações web simples, unindo a versatilidade das tecnologias web com algumas funções presentes somente em aplicações nativas. Podem ser instaladas no dispositivo, exibir notificações, e podem funcionar mesmo sem conexão com internet.</p>
+            <h3>Vantagens das PWA</h3>
+            <ul>
+                <li>Eles têm a garantia de estar funcionando sempre na última versão disponível, sem a necessidade de atualizar a aplicação a partir da loja de aplicativos, já que o aplicativo é atualizado via servidor pelo desenvolvedor. </li>
+                <li>Os PWAs são caracterizados como rápidos: geralmente renderizando o conteúdo no dispositivo do usuário em apenas alguns segundos.</li>
+                <li>Estável: mesmo em conexões de internet de fraca qualidade ou em dispositivos mais antigos. </li>
+                <li>Envolvente: ao ativar notificações, mesmo na Web App, os utilizadores podem receber notificações para serem alertados sobre alguma informação pertinente na aplicação, mesmo que o browser não esteja aberto .</li>
+            </ul>
+            <h3>Desvantagens</h3>
+            <ul>
+                <li>O desempenho reduzido</li>
+                <li>Menor integração com o sistema operacional e acesso ao hardware, que apesar de ser mais completo do que em apps web tradicionais, ainda não atinge o nível de acesso ao hardware de aplicações nativas.</li>
+            </ul>
+
+            <h3>Exemplo de uma aplicação Progressive Web App (PWA)</h3>
+            <div class="imagem">
+        
+                <picture>
+                    <source media="(max-width:800px)" srcset="img/Pinterr-peq.png">
+                    <img src="img/Pinterr.png" alt="Imagem de Pinterest">
+                    <figure>
+                        <figcaption>Fig 3: Pinterest</figcaption>
+                    </figure>
+                </picture>
+            </div>
+            <br>
+
+            <blockquote>
+                <h2>Bibliografia</h2>
+                <p>O artigo foi escrito com base nas seguintes bibliografias:</p>
+                <cite>1. https://www.netsolutions.com/hub/mobile-app-development</cite>
+                <br>
+                <cite>2. https://www.monitoratec.com.br/blog/aplicacoes-nativa-web-e-hibrida</cite>
+                <br>
+                <cite>3. https://blog.accurate.com.br/desenvolvimento-mobile</cite>
+            </blockquote>
+        </article>
+    </main>
+    <footer>
+        <p>Website desenhado por hoaxen333</p>
+    </footer>
+</body>
+</html>
